@@ -1,67 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angeli Elliott Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\mediaqueries.css">
+    
 </head>
 
 <body>
-<header class="header-container">
-    
-        <nav class="nav-container"
-            <div id="name">
-                <h1>Angeli Elliott</h1>
-            </div> 
-    
+    <!--section is for my name - Float in the left hand corner of any page-->
+    <header class="header-container">
+        <div class="nav-container">
+            <div id="logo">Angeli Elliott
+            </div>
+
             <nav>
                 <ul>
-                    <li> <a href="index.html"class="active">About</a></li>
+                    <li> <a href="index.html" class="active">About</a></li>
                     <li> <a href="portfolio.html">Portfolio</a></li>
                     <li> <a href="contact.html">Contact</a></li>
-                    </ul>
+                </ul>
             </nav>
-        </nav>
-    
-     </header>
-    
+        </div>
+    </header>
 
+    <div class="mainbox">
 
+        <h2>Contact</h2>
 
-<div class="mainbox">
+        <div class="main-content">
 
-         <h2>Contact</h2>
+            <form action="mailto:chingford162@outlook.com" method="post" enctype="text/plain">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="name">Name</label>
+                    </div>
+                    <div>
+                        <div class="col-75">
+                            <input type="text" id="name" name="name" placeholder="Your name...">
+                        </div>
+                    </div>
+                </div>
 
-    <div class="main-content">
-       <p>Name</p>
-       
-       <p id="name-box"></p>
-       
-       <br>
+                <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div>
+                            <div class="col-75">
+                                <input type="text" id="email" name="email" placeholder="Your email...">
+                            </div>
+                        </div>
+                    </div>
 
-       <p>Email</p>
-       
-       <p id="email-box">
-           
-        </p> 
-    
-       <br>
-       
-       <p>Message</p>
-       
-       <p id="message-box"></p>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="message">Message</label>
+                    </div>
+                    <div>
+                        <div class="col-75">
+                            <textarea id="subject" name="message" placeholder="Look forward to hearing from you..." style="height:200px" ></textarea>
+                        </div>
+                    </div>
+                </div>
 
-       <br>
-
-        <p id="submit-button">Submit</p>
-        
+                <div class="row">
+                         <input type="submit" value="Submit"> 
+                    </div>
+            </form>
+        </div>
 
     </div>
-
-</div>
 
     <footer>
         <p>Copyright &copy;</p>
     </footer>
 </body>
+
 </html>
