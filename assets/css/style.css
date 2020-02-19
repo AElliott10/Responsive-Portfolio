@@ -195,7 +195,7 @@ input[type=submit]{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    height: 500px;
+    height: 300px;
     width: 960px;
     color: white;
 }
@@ -213,3 +213,7 @@ figure {
 figcaption{
 text-align: center;
 }
+.a href{
+    text-align: center;
+    position: relative;
+    }
